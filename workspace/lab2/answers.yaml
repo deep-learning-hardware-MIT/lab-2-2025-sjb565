@@ -1,0 +1,33 @@
+'1.0':
+  What is your email address?:
+    answer: sjb565@mit.edu
+    assumptions: []
+  What is your kerberos?:
+    answer: sjb565
+    assumptions: []
+  What is your name?:
+    answer: Soojung Bae
+    assumptions: []
+'1.1':
+  How many reads of A?:
+    answer: 64
+    assumptions: []
+  How many reads of B?:
+    answer: 64
+    assumptions: []
+  How many reads of C?:
+    answer: 64
+    assumptions: []
+  How many writes of A?:
+    answer: 0
+    assumptions: []
+  How many writes of B?:
+    answer: 0
+    assumptions: []
+  How many writes of C?:
+    answer: 64
+    assumptions: []
+'1.2':
+  Check if result is correct.:
+    answer: true
+    assumptions: []
