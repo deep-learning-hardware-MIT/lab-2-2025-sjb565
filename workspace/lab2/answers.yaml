@@ -31,3 +31,97 @@
   Check if result is correct.:
     answer: true
     assumptions: []
+'1.3':
+  Check if result is correct.:
+    answer: true
+    assumptions: []
+  The larger block size exploits _____ locality.:
+    answer: spatial
+    assumptions: []
+'1.4':
+  Arranging B in column-major order creates _____ locality in the access pattern of B.:
+    answer: spatial
+    assumptions: []
+  Check if result is correct.:
+    answer: true
+    assumptions: []
+  ? The traversal pattern due to the M, N, K loop nest is ____ with the column-major
+    format of B. Answer with 'discordant' or 'concordant'
+  : answer: concordant
+    assumptions: []
+  The traversal pattern due to the M, N, K loop nest is ____ with the row-major format of B.:
+    answer: discordant
+    assumptions: []
+'1.5':
+  ? Assume for this subquestion that address conflicts can be completely avoided by
+    adding some mechanism in the cache for tensor C, would there still be (1) compulsory
+    and (2) capacity misses? Please write your answer (True/False in Python) in order
+    as a list (e.g., [False, True]).
+  : answer:
+    - true
+    - true
+    assumptions: []
+  Check if result is correct.:
+    answer: true
+    assumptions: []
+  ? Does the cache for tensor A have (1) compulsory, (2) capacity, and (3) conflict
+    misses? Please write your answer (True/False in Python) in order as a list (e.g.,
+    [True, False, True]).
+  : answer:
+    - true
+    - true
+    - true
+    assumptions: []
+  ? Does the cache for tensor B have (1) compulsory, (2) capacity, and (3) conflict
+    misses? Please write your answer (True/False in Python) in order as a list (e.g.,
+    [True, False, True]).
+  : answer:
+    - true
+    - false
+    - false
+    assumptions: []
+  Does the cache for tensor C have conflict misses? Please write your answer (True/False in Python).:
+    answer: true
+    assumptions: []
+'1.6':
+  Check if result is correct.:
+    answer: true
+    assumptions: []
+  Compared to using three separate caches, the number of misses has increased. This increase is due to more ___ misses.:
+    answer: conflict
+    assumptions: []
+'1.7':
+  Check if result is correct.:
+    answer: true
+    assumptions: []
+  Compared to using one cache, the set-associative cache reduces misses.:
+    answer: true
+    assumptions: []
+  Set-associative caches are beneficial for reducing _____ misses.:
+    answer: conflict
+    assumptions: []
+'2.1':
+  ? Does the cache for tensor A have (1) compulsory, (2) capacity, and (3) conflict
+    misses? Please write your answer (True/False in Python) in order as a list (e.g.,
+    [True, False, True]).
+  : answer:
+    - true
+    - false
+    - false
+    assumptions: []
+  ? Does the cache for tensor B have (1) compulsory, (2) capacity, and (3) conflict
+    misses? Please write your answer (True/False in Python) in order as a list (e.g.,
+    [True, False, True]).
+  : answer:
+    - true
+    - true
+    - true
+    assumptions: []
+  ? Does the cache for tensor C have (1) compulsory, (2) capacity, and (3) conflict
+    misses? Please write your answer (True/False in Python) in order as a list (e.g.,
+    [True, False, True]).
+  : answer:
+    - true
+    - false
+    - false
+    assumptions: []
